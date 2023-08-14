@@ -1,3 +1,8 @@
+import Image from "next/image";
+import twitter from '../public/xtwitter.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXTwitter,faTelegram } from '@fortawesome/free-brands-svg-icons';
+
 export default function Home() {
   return (
     <>
@@ -14,9 +19,12 @@ export default function Home() {
 
       <div class="banner">
         <img src="cover.jpeg" alt="Banner Image" />
+        <p className="mt-4">
+          <span className="font-bold italic">Oppenheimer Coin</span> is a revolutionary cryptocurrency inspired by the
+          captivating and thought-provoking film <span className="font-bold">'Oppenheimer.'</span>
+        </p>
         <p>
-          Oppenheimer Coin is a revolutionary cryptocurrency inspired by the
-          captivating and thought-provoking film 'Oppenheimer.'{" "}
+        <span className="font-bold italic">Oppenheimer Coin</span> is listed on <span className="font-bold"> Arbitrum Chain </span>
         </p>
       </div>
 
@@ -97,6 +105,15 @@ export default function Home() {
             <h3>Coinbase</h3>
             {/* <p>UX Designer</p> */}
           </div>
+        </div>
+      </div>
+
+      <div className="bg-[#000000] flex justify-between p-4 font-semibold">
+        <p className="text-white m-2">Listed On Arbitrum Chain</p>
+        <div className="flex justify-between">
+        <a className="m-2" href="https://twitter.com/Oppenheime_op?s=09"><FontAwesomeIcon icon={faXTwitter} size="lg" style={{ color: '#ffffff', width: '24px', height: '24px' }} /></a>
+        <a className="m-2" href="https://twitter.com/Oppenheime_op?s=09"><FontAwesomeIcon icon={faTelegram} size="lg" style={{ color: '#ffffff', width: '24px', height: '24px' }} /></a>
+
         </div>
       </div>
     </>
