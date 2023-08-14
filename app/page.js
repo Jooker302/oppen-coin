@@ -4,20 +4,24 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter,faTelegram } from '@fortawesome/free-brands-svg-icons';
 
 export default function Home() {
+
+  
+
   return (
     <>
       <div class="top-bar">
         <div class="logo">
-          <img className="w-10 h-10" src="main.jpeg" />
+          <img className="w-10 h-10 rounded-full" src="main.jpeg" />
         </div>
         <div class="navigation">
-          <a href="#">About</a>
-          <a href="#">Team</a>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#team">Team</a>
+          
         </div>
       </div>
 
-      <div class="banner">
+      <div class="banner" id="home">
         <img src="cover.jpeg" alt="Banner Image" />
         <p className="mt-4">
           <span className="font-bold italic">Oppenheimer Coin</span> is a revolutionary cryptocurrency inspired by the
@@ -28,11 +32,12 @@ export default function Home() {
         </p>
       </div>
 
-      <div
+      <div id="about"
         className="m-4 mb-0 text-5xl font-bold md:ml-10"
         class="about-heading"
       >
-        About
+        <p className="text-5xl md:ml-0 font-bold">About</p>
+        
       </div>
       <div class="about">
         <div class="about-text">
@@ -54,7 +59,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center md:p-10 bg-[#f5f5f5]">
+      <div id="team" className="flex flex-col justify-center md:p-10 bg-[#f5f5f5]">
         <p className="text-5xl ml-6 md:ml-0 font-bold ">Partner</p>
         <div class="container flex flex-wrap justify-around">
           <div class="team-profile">
@@ -112,7 +117,7 @@ export default function Home() {
         <p className="text-white m-2">Listed On Arbitrum Chain</p>
         <div className="flex justify-between">
         <a className="m-2" href="https://twitter.com/Oppenheime_op?s=09"><FontAwesomeIcon icon={faXTwitter} size="lg" style={{ color: '#ffffff', width: '24px', height: '24px' }} /></a>
-        <a className="m-2" href="https://twitter.com/Oppenheime_op?s=09"><FontAwesomeIcon icon={faTelegram} size="lg" style={{ color: '#ffffff', width: '24px', height: '24px' }} /></a>
+        <a className="m-2" href="https://t.me/oppenheimerSigma"><FontAwesomeIcon icon={faTelegram} size="lg" style={{ color: '#ffffff', width: '24px', height: '24px' }} /></a>
 
         </div>
       </div>
