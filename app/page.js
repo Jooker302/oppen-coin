@@ -21,13 +21,38 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="banner" id="home">
-        <img src="cover.jpeg" alt="Banner Image" />
-        <p className="mt-4">
+
+      <div id="intro"
+        className="m-4 mb-0 text-5xl font-bold md:ml-10"
+        class="about-heading">
+        <p className="text-5xl md:ml-0 mt-10 md:mt-6 font-bold">Introduction</p>
+      </div>
+      <div class="about">
+      <div class="about-image">
+          <img
+            className="md:h-64 md:w-64 md:ml-24 md:rounded"
+            src="main.jpeg"
+            alt="About Image"
+          />
+        </div>
+        <div class="about-text">
+          <p className="text-3xl md:mt-12 italic">
           <span className="font-bold italic">Oppenheimer Coin</span> is a revolutionary cryptocurrency inspired by the
           captivating and thought-provoking film <span className="font-bold">'Oppenheimer.'</span>
-        </p>
-        <p>
+          </p>
+        </div>
+        
+      </div>
+
+
+
+      <div class="banner" id="home">
+        <img src="cover.jpeg" className="md:mt-24" alt="Banner Image" />
+        {/* <p className="mt-4">
+          <span className="font-bold italic">Oppenheimer Coin</span> is a revolutionary cryptocurrency inspired by the
+          captivating and thought-provoking film <span className="font-bold">'Oppenheimer.'</span>
+        </p> */}
+        <p className="mt-4">
         <span className="font-bold italic">Oppenheimer Coin</span> is listed on <span className="font-bold"> Arbitrum Chain </span>
         </p>
       </div>
