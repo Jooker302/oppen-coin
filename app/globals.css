@@ -23,7 +23,7 @@ body {
   background-color: black;
 }
 
-p {
+p,h3 {
   color: white;
 }
 
