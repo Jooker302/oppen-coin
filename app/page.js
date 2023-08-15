@@ -93,7 +93,7 @@ export default function Home() {
               src="dxsale.png"
               class="team-img"
             />
-            <h3>DX Sale</h3>
+            <h3>DxSale</h3>
             </a>
             {/* <p>Founder and CEO</p> */}
           </div>
