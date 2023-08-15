@@ -88,11 +88,13 @@ export default function Home() {
         <p className="text-5xl ml-6 md:ml-0 font-bold ">Partner</p>
         <div class="container flex flex-wrap justify-around">
           <div class="team-profile">
+            <a href="https://dx.app">
             <img
               src="dxsale.png"
               class="team-img"
             />
             <h3>DX Sale</h3>
+            </a>
             {/* <p>Founder and CEO</p> */}
           </div>
           <div class="team-profile">
