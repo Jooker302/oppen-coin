@@ -58,7 +58,7 @@ export default function Home() {
       </div>
 
       <div id="about"
-        className="m-4 mb-0 text-5xl font-bold md:ml-10"
+        className="m-4 mb-0 text-5xl md:mt-24n font-bold md:ml-10"
         class="about-heading"
       >
         <p className="text-5xl md:ml-0 font-bold">About</p>
