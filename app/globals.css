@@ -20,7 +20,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background-color: black;
 }
+
+p {
+  color: white;
+}
+
 .top-bar {
   background-color: #333;
   color: #fff;
@@ -52,7 +58,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
 }
 .banner img {
   max-width: 100%;

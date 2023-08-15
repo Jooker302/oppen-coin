@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="team" className="flex flex-col justify-center md:p-10 bg-[#f5f5f5]">
+      <div id="team" className="flex flex-col justify-center md:p-10 ">
         <p className="text-5xl ml-6 md:ml-0 font-bold ">Partner</p>
         <div class="container flex flex-wrap justify-around">
           <div class="team-profile">
@@ -113,7 +113,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-[#000000] flex justify-between p-4 font-semibold">
+      <div className="bg-[#333] flex justify-between p-4 font-semibold">
         <p className="text-white m-2">Listed On Arbitrum Chain</p>
         <div className="flex justify-between">
         <a className="m-2" href="https://twitter.com/Oppenheime_op?s=09"><FontAwesomeIcon icon={faXTwitter} size="lg" style={{ color: '#ffffff', width: '24px', height: '24px' }} /></a>
